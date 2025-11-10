@@ -46,8 +46,6 @@ WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_subjects-auto
 
 WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_subjectsInput'), 'maths')
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_subjectsInput'), 'english')
-
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-2-option-0'))
 
 WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Reading'))
@@ -69,8 +67,4 @@ WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_Select City')
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-4-option-1'))
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/button_submit'))
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.delay(5)
 
