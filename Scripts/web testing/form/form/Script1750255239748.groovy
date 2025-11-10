@@ -68,3 +68,5 @@ WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/button_submit'))
 
+WebUI.delay(10)
+
