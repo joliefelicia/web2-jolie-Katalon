@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Last Name
 
 WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_nameexample.com'), email)
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/label_Female'))
+WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Female'))
 
 WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Mobile Number'), mobile_number)
 
@@ -46,11 +46,13 @@ WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_subjects-auto
 
 WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_subjectsInput'), 'maths')
 
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_subjectsInput'), 'english')
+
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-2-option-0'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/label_Reading'))
+WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Reading'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/label_Music'))
+WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Music'))
 
 WebUI.uploadFile(findTestObject('Page_DEMOQA/form/input_Select picture'), file)
 
