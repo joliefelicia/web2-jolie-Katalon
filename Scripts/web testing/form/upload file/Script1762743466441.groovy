@@ -25,5 +25,5 @@ WebUI.click(findTestObject('Page_DEMOQA/upload doc form/Page_DEMOQA/a_Upload and
 
 WebUI.scrollToElement(findTestObject('Page_DEMOQA/upload doc form/Page_DEMOQA/input_Select a file_uploadFile'), 0)
 
-WebUI.uploadFile(findTestObject('Page_DEMOQA/upload doc form/Page_DEMOQA/input_Select a file_uploadFile'), 'C:\\Users\\asus2\\Katalon Studio\\web2-jolie-main\\foto')
+WebUI.uploadFile(findTestObject('Page_DEMOQA/upload doc form/Page_DEMOQA/input_Select a file_uploadFile'), 'C:\\Users\\asus2\\Katalon Studio\\web2-jolie-main\\foto\\Screenshot 2025-10-21 110251.png')
 
