@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_droppable</name>
+   <name>label_Sports</name>
    <tag></tag>
-   <elementGuidId>2c2d52b3-ee12-44c4-b17a-dd9f0044a8a7</elementGuidId>
+   <elementGuidId>b999f583-1343-454f-9e45-5006884f987e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.ui-droppable.ui-state-highlight</value>
+         <value>#hobbiesWrapper .form-check:nth-child(1) .form-check-label</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'droppable']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'droppable' and (text() = 'Dropped!' or . = 'Dropped!')]</value>
+         <value>//*[@id = 'hobbiesWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,63 +22,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>3c062d89-b8e9-4fe4-ac68-aa9c241712a4</webElementGuid>
+      <value>label</value>
+      <webElementGuid>5e1adf35-3f9c-49f7-b308-590526542c84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>for</name>
       <type>Main</type>
-      <value>droppable</value>
-      <webElementGuid>e176308b-f688-4a9b-ad33-512e73fd4b52</webElementGuid>
+      <value>hobbies-checkbox-1</value>
+      <webElementGuid>b61c8e47-78cf-4ddd-87e9-458c6abc6710</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>drop-box ui-droppable ui-state-highlight</value>
-      <webElementGuid>b6ec439e-80bd-49d0-b969-1fa3f8908a77</webElementGuid>
+      <value>form-check-label</value>
+      <webElementGuid>7c371176-dba6-4989-aa2f-f6271eafcdc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Dropped!</value>
-      <webElementGuid>e04dd235-b8bc-47be-9dac-25ebbb5b932a</webElementGuid>
+      <value>Sports</value>
+      <webElementGuid>14704190-4310-4807-a754-310cdd73f06a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4587607216907dcda439bbd02ba9faca</value>
-      <webElementGuid>7b9be20d-ea42-4777-970a-94d6b3d3bf5d</webElementGuid>
+      <value>md5.v1-30cf7dccb9b025876b4b013af8d11bc0</value>
+      <webElementGuid>0dc322fd-6691-4e17-b122-9494af7f0bea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ui-droppable ') and contains(concat(' ', normalize-space(@class), ' '), ' ui-state-highlight ')]</value>
-      <webElementGuid>6985e81d-84b7-4e17-aec0-9a7a6b969de1</webElementGuid>
+      <value>//*[@id = 'hobbiesWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
+      <webElementGuid>3e2c5ca4-2277-450d-a281-d024bca70ab5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id =  'droppable']</value>
-      <webElementGuid>a5f57e61-f883-4983-80e9-f26b4bfc0219</webElementGuid>
+      <value>//*[@id = 'hobbiesWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
+      <webElementGuid>6b2dc309-2d75-4450-8af0-b444356e9293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'droppable' and (text() = 'Dropped!' or . = 'Dropped!')]</value>
-      <webElementGuid>6048f2b7-15cd-46d3-a560-608bbbfacd71</webElementGuid>
+      <value>//label[(text() = 'Sports' or . = 'Sports')]</value>
+      <webElementGuid>be92e3c8-5e42-42d0-b5ea-af5f36c3c97a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

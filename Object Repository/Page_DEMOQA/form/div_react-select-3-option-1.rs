@@ -6,12 +6,12 @@
    <elementGuidId>2f9e82c4-7ad0-40de-a229-51e860b53f2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'state']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+         <key>CSS</key>
+         <value>[role=&quot;option&quot;]:nth-child(2)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#state div:nth-child(3) div:nth-child(2)</value>
+         <key>XPATH</key>
+         <value>//*[(@role = 'option') and (position() = 2)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>33f24348-87dd-4fa2-b94d-b25682c5271c</webElementGuid>
+      <webElementGuid>09845d6c-485d-4878-9b72-e90a8ce09529</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> css-yt9ioa-option</value>
-      <webElementGuid>a5fbeaa9-7f36-44fb-805d-3a527cdd424e</webElementGuid>
+      <value>css-10wo9uf-option</value>
+      <webElementGuid>34e85d7d-3bb0-4000-9a92-0268bd7159da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-3-option-1</value>
-      <webElementGuid>ac572f9a-d7c2-459b-8bad-8e8b924b450c</webElementGuid>
+      <webElementGuid>1a3af0ef-a3c5-4903-9b4b-0e480ce0ef1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,15 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>6be8610c-133a-4cdc-9bf9-6ed7b4bd7447</webElementGuid>
+      <webElementGuid>1882122f-1bb6-4702-876b-0b0dd86a0cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>react-select-3-option-1</value>
-      <webElementGuid>a3189731-7f64-4826-ac04-26b7e5eab3e4</webElementGuid>
+      <value>Uttar Pradesh</value>
+      <webElementGuid>048aedb5-b0c3-423e-82fd-90b2224854c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,19 +76,59 @@
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-c69a7ca41d5e6b2010a2cac17052582a</value>
-      <webElementGuid>58291baf-f6bb-46fa-89e4-86cf0ba5246b</webElementGuid>
+      <value>md5.v1-7cea6358c17f3fcafe32e993a1ac5a3f</value>
+      <webElementGuid>28dc664a-0397-41d2-826f-b9aa68137ddb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'state']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
-      <webElementGuid>947e09a6-9588-464f-b54a-318179993bbe</webElementGuid>
+      <value>//*[(@role = 'option') and (position() = 2)]</value>
+      <webElementGuid>f3217952-77f5-4bc5-8154-041e21f8494c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>69959a93-b9e9-4c5b-bc5d-8e7aab4d7947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>ef916985-3d5f-4312-a43c-33ccf5ef07f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e673b095-81f7-4b62-bf7d-4ad9d7b51f1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@role = 'option') and (position() = 2)]</value>
+      <webElementGuid>652f2950-ea93-4f09-a23d-65af34afcdeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-3-option-1' and (text() = 'Uttar Pradesh' or . = 'Uttar Pradesh')]</value>
+      <webElementGuid>7906eef8-7e3e-4d39-8006-4a2a93f3fc68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

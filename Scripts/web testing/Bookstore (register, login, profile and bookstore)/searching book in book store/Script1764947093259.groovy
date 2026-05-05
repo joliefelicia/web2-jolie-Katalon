@@ -21,15 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/login')
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_UserName'), 'joliefeliciaa')
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_UserName'), 'joliefeliciaa')
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_Password'), '123456789$abcD')
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Password'), '123456789$abcD')
 
-WebUI.click(findTestObject('Page_DEMOQA/register bookstore/button_Password_login'))
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/button_Password_login'))
 
-WebUI.click(findTestObject('Page_DEMOQA/register bookstore/li_Login_item-2'))
+WebUI.click(findTestObject('Page_DEMOQA/form/button_gotoStore'))
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_Book Store API_searchBox'), 'Richard')
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Type to search'), 'richard')
 
-WebUI.selectOptionByIndex(findTestObject('Page_DEMOQA/register bookstore/select'), 0)
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/register bookstore/a_Git Pocket Guide'))
+
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/register bookstore/button_addNewRecordButton'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>6dfc1726-4c9d-41d2-b596-440f9bb8d80d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'state']/div/*[(name() = 'div') and (position() = 1)]</value>
+         <key>CSS</key>
+         <value>#state .css-hlgwow</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#state > div > div:nth-child(1)</value>
+         <key>XPATH</key>
+         <value>//*[@id = 'state']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' css-hlgwow ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>66cb4166-e7be-47cf-b265-8990259d8837</webElementGuid>
+      <webElementGuid>814fa2cd-cbcb-4264-b241-37b377965db6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> css-1hwfws3</value>
-      <webElementGuid>89359d30-ed06-461c-9e43-edd0b3ff8950</webElementGuid>
+      <value>css-hlgwow</value>
+      <webElementGuid>aa04161c-c863-47e7-b1c6-6d48d7c3ae4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select State</value>
-      <webElementGuid>b71baef8-9a4b-4145-a63e-6f368b530721</webElementGuid>
+      <webElementGuid>be81cf65-a4c8-42bd-8047-44fcc7bcbf4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,24 +60,24 @@
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-79249b9ebab1334375c34d6a782ff944</value>
-      <webElementGuid>7dc92d90-9ddd-4520-b4a8-ab836f9712cc</webElementGuid>
+      <value>md5.v1-8b74b39d028b90862684340737fa2f10</value>
+      <webElementGuid>63e027cd-16ef-4e15-b334-79138d5c0694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'state']/div/*[(name() = 'div') and (position() = 1)]</value>
-      <webElementGuid>6f36a0d2-5cc0-42a6-8407-26dbe0473eb5</webElementGuid>
+      <value>//*[@id = 'state']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' css-hlgwow ')]</value>
+      <webElementGuid>88d30361-9dfa-4e71-afcb-8721d02f1802</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'state']/div/*[(name() = 'div') and (position() = 1)]</value>
-      <webElementGuid>7ad81f37-f254-4d5a-8c42-6e987cda6ff7</webElementGuid>
+      <value>//*[@id = 'state']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' css-hlgwow ')]</value>
+      <webElementGuid>0437a64a-5516-41f1-bea7-aa76040f667b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,15 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Select State' or . = 'Select State')]</value>
-      <webElementGuid>b7ca8b70-6fe8-4d3b-ae31-7e1f747943f0</webElementGuid>
+      <webElementGuid>53016421-8d06-41d8-b58d-5fac564ac979</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'state']/div/*[(name() = 'div') and (position() = 1)]</value>
+      <webElementGuid>7ad81f37-f254-4d5a-8c42-6e987cda6ff7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

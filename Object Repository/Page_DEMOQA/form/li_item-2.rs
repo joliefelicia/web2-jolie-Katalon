@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_draggable</name>
+   <name>li_item-2</name>
    <tag></tag>
-   <elementGuidId>7e54a2e9-d94c-4ab2-a219-261ff0326be1</elementGuidId>
+   <elementGuidId>602710c8-e8d4-440e-91c7-2a2e698755a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'draggable']</value>
+         <key>CSS</key>
+         <value>.element-group:nth-child(6) li:nth-child(2)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#draggable</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' element-group ') and (position() = 6)]//*[(name() = 'li') and (position() = 2)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,63 +22,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>beb06ca2-39af-40a8-8027-f1bc3dda7849</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>draggable</value>
-      <webElementGuid>b1e03a9b-a56e-4e61-b65c-ad0344372304</webElementGuid>
+      <value>li</value>
+      <webElementGuid>88520948-fe30-40f9-863f-d24c317700df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>drag-box mt-4 ui-draggable ui-draggable-handle</value>
-      <webElementGuid>34a313dc-542b-47f9-afd8-6d9cbe1be2ba</webElementGuid>
+      <value>btn btn-light active</value>
+      <webElementGuid>60fbbfbd-57f5-47e5-9f99-8b5df9ac1ea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>item-2</value>
+      <webElementGuid>bf11b993-30e5-48af-9917-eca989c8ec6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Drag me</value>
-      <webElementGuid>41281b85-09a2-4e63-affc-a6bb7cd0d8a4</webElementGuid>
+      <value>Book Store</value>
+      <webElementGuid>c12963dd-c060-4e31-8252-58baf8a8e89d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-dc150a4c4a2a0fff4c51f3cb4c9d71ca</value>
-      <webElementGuid>cef8f601-e272-4dbe-95f1-ea415d25cc72</webElementGuid>
+      <value>md5.v1-0c45702c7e36cc59e182209a6c4aafa9</value>
+      <webElementGuid>2064f8be-5114-439d-b433-5ca8f668abfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'draggable']</value>
-      <webElementGuid>554d3f57-f2ae-4000-843b-59a744c6571a</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' element-group ') and (position() = 6)]//*[(name() = 'li') and (position() = 2)]</value>
+      <webElementGuid>7ebf9147-32af-428c-bfcf-6df040c55883</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'draggable']</value>
-      <webElementGuid>733bbe71-b0ad-44ef-99ae-14beb1e7e065</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' element-group ') and (position() = 6)]//*[(name() = 'li') and (position() = 2)]</value>
+      <webElementGuid>c9594f61-6bd7-4fca-af0c-cf67d4fc7a70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'draggable' and (text() = 'Drag me' or . = 'Drag me')]</value>
-      <webElementGuid>80fe5b75-c89c-403e-bdbf-2d6f6288cb4d</webElementGuid>
+      <value>//li[@id = 'item-2' and (text() = 'Book Store' or . = 'Book Store')]</value>
+      <webElementGuid>0d8b9f22-74ba-4635-86f7-b8464d95da45</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

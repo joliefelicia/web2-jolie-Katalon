@@ -6,12 +6,12 @@
    <elementGuidId>b829afea-c04d-4565-805e-e3c4de6d7366</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-radio ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
+         <key>CSS</key>
+         <value>#genterWrapper .form-check:nth-child(2) .form-check-label</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.custom-control.custom-control-inline.custom-radio:nth-child(2) .custom-control-label</value>
+         <key>XPATH</key>
+         <value>//*[@id = 'genterWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>391c91c4-802c-4daa-9831-204296d3413c</webElementGuid>
+      <webElementGuid>2d89c52d-5023-44c8-b727-d1f8a8cdc7c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>for</name>
       <type>Main</type>
       <value>gender-radio-2</value>
-      <webElementGuid>1047899f-c184-40b8-8c90-aab260587ea4</webElementGuid>
+      <webElementGuid>8399e9d6-f13f-452d-bdd9-968bd37253c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-control-label</value>
-      <webElementGuid>9ca6af72-d334-4d49-acad-6f9908d918af</webElementGuid>
+      <value>form-check-label</value>
+      <webElementGuid>d06de2ca-5ca9-4c3e-8910-3f97a92aacf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,39 +53,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Female</value>
-      <webElementGuid>d2659c49-a760-456a-9d72-70dd9826984b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>@text</name>
-      <type>Main</type>
-      <value>Female</value>
-      <webElementGuid>f602a78e-d00c-4781-922b-29f59d513ae7</webElementGuid>
+      <webElementGuid>e0509678-c28e-437d-bb18-5b30adb8c30c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5d59802817754df74d63f3f31cc59ae1</value>
-      <webElementGuid>312b1358-ce71-41db-8410-cd272e5cbc70</webElementGuid>
+      <value>md5.v1-f95250ca635f16eba1897772dd5f0a32</value>
+      <webElementGuid>9061f826-d1a4-4b05-915f-70384f194b8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-radio ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
-      <webElementGuid>782a0a6f-ea14-4b79-90bc-a57dc1444512</webElementGuid>
+      <value>//*[@id = 'genterWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
+      <webElementGuid>912076b1-5553-4e37-80e2-10a31287fbdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-radio ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
-      <webElementGuid>d9ac54b3-f44f-4210-b370-29112c704fc8</webElementGuid>
+      <value>//*[@id = 'genterWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
+      <webElementGuid>d390ca1a-2ca6-437b-acc8-d5e6a7cda3fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Female' or . = 'Female')]</value>
-      <webElementGuid>072b1eec-a83a-4a88-bd08-3daa8410e792</webElementGuid>
+      <webElementGuid>d5e86e31-0887-4b93-8f5b-f162b4dea2af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

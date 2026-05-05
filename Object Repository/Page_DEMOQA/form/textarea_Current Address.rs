@@ -6,12 +6,12 @@
    <elementGuidId>4f8b5652-cc19-4c88-9627-095423dad1df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'currentAddress']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#currentAddress</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'currentAddress']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>061d0fb3-6084-4473-b4da-7de60aa929c4</webElementGuid>
+      <webElementGuid>63bc32de-b766-45c9-9f6f-362270448259</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Current Address</value>
-      <webElementGuid>2862f3cb-2685-4627-ab9c-0818f1e5d964</webElementGuid>
+      <webElementGuid>2104a134-0bc8-4231-b66d-9cc9136bc9f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>f49aaf49-fe5c-44a4-ab55-0a454631f5f2</webElementGuid>
+      <webElementGuid>16215798-70f4-4983-a197-a845389ba61a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>2a9b322b-50b3-4cb7-ae5d-3b15347ee5e0</webElementGuid>
+      <webElementGuid>13f7b0a9-2d8d-4473-a339-5c25cff1c145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>id</name>
       <type>Main</type>
       <value>currentAddress</value>
-      <webElementGuid>218b0c27-4cb8-4d74-8569-71e5931318d8</webElementGuid>
+      <webElementGuid>8f70d194-9ceb-435b-803c-7b5d7fb79c84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>d5fcf418-187e-4680-b535-9de919ec0e65</webElementGuid>
+      <webElementGuid>8b574ed8-cad3-4497-8414-16d7550d74f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-40436a93257e953de9f44805fdd3a63f</value>
-      <webElementGuid>48edf23b-56b5-4f45-a00a-cc553c6fa023</webElementGuid>
+      <webElementGuid>d107acf1-b6f3-43f7-a357-535bc2db9ecc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'currentAddress']</value>
-      <webElementGuid>6d66d899-bc76-47a5-8e46-da3ac9d03735</webElementGuid>
+      <webElementGuid>90bd447c-47e4-4bb3-8306-b8fa01abd89c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'currentAddress']</value>
-      <webElementGuid>c453abd4-e713-40d5-b61b-573a937310ba</webElementGuid>
+      <webElementGuid>6c039bf1-7181-45e9-969f-c1f1893e3e76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Current Address' and @id = 'currentAddress']</value>
+      <webElementGuid>c386e35c-848f-4b94-bcab-182c9fdf0eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

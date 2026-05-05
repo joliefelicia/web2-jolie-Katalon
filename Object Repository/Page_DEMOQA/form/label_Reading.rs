@@ -6,12 +6,12 @@
    <elementGuidId>27fcd9a5-25e9-4ebe-b13c-8585b3419eca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-checkbox ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
+         <key>CSS</key>
+         <value>#hobbiesWrapper .form-check:nth-child(2) .form-check-label</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.custom-control.custom-control-inline.custom-checkbox:nth-child(2) .custom-control-label</value>
+         <key>XPATH</key>
+         <value>//*[@id = 'hobbiesWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>a50a95b6-7007-4271-8b50-2486404d4e10</webElementGuid>
+      <webElementGuid>af6e77e3-e2b4-4ac1-afbb-1f4e4198ad80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>for</name>
       <type>Main</type>
       <value>hobbies-checkbox-2</value>
-      <webElementGuid>f955c4b4-d74f-48ba-9bd0-6416ca23af4d</webElementGuid>
+      <webElementGuid>4b909bde-7537-4bcd-8c03-46b789e6441a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-control-label</value>
-      <webElementGuid>a8e09bd0-27ca-4d38-a2a9-81c36c0cb8a8</webElementGuid>
+      <value>form-check-label</value>
+      <webElementGuid>a38de45c-b799-4063-85cb-58a49d34f89b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reading</value>
-      <webElementGuid>a002a28f-4951-4d8a-a44a-c0dfe18446a0</webElementGuid>
+      <webElementGuid>e8af0390-eb59-4860-8d95-7f036f8e18fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,24 +68,24 @@
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-e9826f021b471a56ebb42bdb808b84c0</value>
-      <webElementGuid>c6b755c8-f135-4078-82a3-91842008c5f9</webElementGuid>
+      <value>md5.v1-700d981cf372421e2f7c8ffd4a5c536b</value>
+      <webElementGuid>d5be6806-eead-4c28-86dd-1f919dbe5324</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-checkbox ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
-      <webElementGuid>ff8ca636-d8d1-4cc5-b324-900d331ec17c</webElementGuid>
+      <value>//*[@id = 'hobbiesWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
+      <webElementGuid>94959116-e40a-4459-98bb-f13c7fd95596</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-checkbox ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
-      <webElementGuid>d6f06ca1-f2cd-41ce-9f93-d92eccd18a84</webElementGuid>
+      <value>//*[@id = 'hobbiesWrapper']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-check-label ')]</value>
+      <webElementGuid>bad95400-cf23-4821-90eb-f6de26d652bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Reading' or . = 'Reading')]</value>
-      <webElementGuid>faefc3a2-7e9c-4197-922c-069ef665ed53</webElementGuid>
+      <webElementGuid>cca02ccd-1287-4951-ae88-cd3bd94a7f60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-inline ') and contains(concat(' ', normalize-space(@class), ' '), ' custom-checkbox ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' custom-control-label ')]</value>
+      <webElementGuid>d6f06ca1-f2cd-41ce-9f93-d92eccd18a84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

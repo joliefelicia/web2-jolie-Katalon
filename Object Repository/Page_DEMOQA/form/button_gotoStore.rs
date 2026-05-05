@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>button_gotoStore</name>
    <tag></tag>
-   <elementGuidId>7db6b5d6-a1f4-4de3-92c0-95bfb3403898</elementGuidId>
+   <elementGuidId>f451c1c4-2a1f-40d9-a4e8-3271dce57c29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#submit</value>
+         <value>#gotoStore</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'submit']</value>
+         <value>//*[@id = 'gotoStore']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Submit&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,23 +23,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>347c4fec-0e3a-4160-b707-05466b534498</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ac031609-a209-4e88-8f68-22ead23629c9</webElementGuid>
+      <webElementGuid>ddc62810-6303-4089-86ea-6cce366e8f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>9f26a9e1-ab89-4d9c-ba23-cdc4208c28e1</webElementGuid>
+      <value>button</value>
+      <webElementGuid>e37b72e7-6c25-42ea-9a15-988308452978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>gotoStore</value>
+      <webElementGuid>e00cd366-65eb-457c-a9ec-e4a96cfa6550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,62 +47,46 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>b35f2014-a79f-4f26-9f0e-db03d16c59a7</webElementGuid>
+      <webElementGuid>f1ad9eb1-9f21-406d-b0e2-79fd200b6ac1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Submit</value>
-      <webElementGuid>4c2331bf-171c-4e6d-8b34-e85b04dbbc24</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>@text</name>
-      <type>Main</type>
-      <value>Submit</value>
-      <webElementGuid>50c6e1e2-064a-473c-9ae3-03342e5db422</webElementGuid>
+      <value>Go To Book Store</value>
+      <webElementGuid>77236751-63aa-46f3-8b3b-87f7661f9ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-9b15d7cb29f48888e567fd131b83604e</value>
-      <webElementGuid>e5898812-dae9-42a7-8713-2aab56308194</webElementGuid>
+      <value>md5.v1-0bb31382b2ca24fa8bc35f30dd10e5bb</value>
+      <webElementGuid>0cf2e8ee-40c3-424b-adfa-34363a55ad99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'submit']</value>
-      <webElementGuid>1d938aaa-397d-4b7d-861a-969e443900e6</webElementGuid>
+      <value>//*[@id = 'gotoStore']</value>
+      <webElementGuid>3d955039-584e-4fd9-b58b-5b0300b80309</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'submit']</value>
-      <webElementGuid>1d6024b1-00e9-4c85-bcbf-42bdfe8cd103</webElementGuid>
+      <value>//*[@id = 'gotoStore']</value>
+      <webElementGuid>19d53a4f-1fa6-4de9-8df3-a1d6ec236722</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and @id = 'submit' and (text() = 'Submit' or . = 'Submit')]</value>
-      <webElementGuid>22516812-7c60-44e9-b672-51c46cd0be12</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@id = 'submit' and @type = 'submit' and (text() = 'submit' or . = 'submit')]</value>
-      <webElementGuid>09726a36-bc17-424a-89c1-d0e13545591b</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'gotoStore' and (text() = 'Go To Book Store' or . = 'Go To Book Store')]</value>
+      <webElementGuid>4fe05441-fb12-418b-b545-2a22df808fba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
