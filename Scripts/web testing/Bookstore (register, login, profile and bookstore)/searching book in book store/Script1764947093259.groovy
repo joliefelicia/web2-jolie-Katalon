@@ -33,5 +33,7 @@ WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Type to s
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/register bookstore/a_Git Pocket Guide'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/register bookstore/button_addNewRecordButton'))
 
